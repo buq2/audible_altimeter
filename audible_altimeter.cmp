@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-15 BZR 5190)-product   date = Sun Oct 19 16:07:24 2014
+Cmp-Mod V01 Created by Cvpcb (2014-10-15 BZR 5190)-product   date = Sun Oct 19 23:36:08 2014
 
 BeginCmp
-TimeStamp = /544368C0;
+TimeStamp = /5443CC8A;
 Reference = CON1;
 ValeurCmp = BUQ2-USB-MICRO-B;
-IdModule  = BUQ2-USB-MICRO-B-RIGHT-ANGLE-SM;
+IdModule  = buq2:USB-MICRO-B-FCI;
 EndCmp
 
 BeginCmp
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /54436B9B;
 Reference = U1;
 ValeurCmp = MPL3115A2;
-IdModule  = ;
+IdModule  = buq2:8-TLGA;
 EndCmp
 
 BeginCmp
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /54438808;
 Reference = U3;
 ValeurCmp = MICRO-SD-CONN;
-IdModule  = ;
+IdModule  = buq2:MICRO-SD-CONN-AMPHENOL-PUSH-PUSH;
 EndCmp
 
 BeginCmp
@@ -46,35 +46,35 @@ BeginCmp
 TimeStamp = /544375CC;
 Reference = U5;
 ValeurCmp = MCP7940M;
-IdModule  = ;
+IdModule  = buq2:8-TDFN;
 EndCmp
 
 BeginCmp
 TimeStamp = /5443842D;
 Reference = U6;
 ValeurCmp = MCP73831-SOT-23-5;
-IdModule  = ;
+IdModule  = buq2:SOT-23-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54438AAB;
 Reference = U7;
 ValeurCmp = NCP4681-SC-70;
-IdModule  = ;
+IdModule  = buq2:SOT-353;
 EndCmp
 
 BeginCmp
 TimeStamp = /54437FE7;
 Reference = U8;
 ValeurCmp = CSS-0575A-SMT;
-IdModule  = ;
+IdModule  = buq2:BUZZER-CUI-5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /54437CBB;
 Reference = U9;
 ValeurCmp = LS013B4DN04;
-IdModule  = ;
+IdModule  = buq2:FPC-CONN-10-FCI;
 EndCmp
 
 BeginCmp
