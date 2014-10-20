@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-15 BZR 5190)-product   date = Sun Oct 19 23:36:08 2014
+Cmp-Mod V01 Created by Cvpcb (2014-10-15 BZR 5190)-product   date = Mon Oct 20 08:04:17 2014
 
 BeginCmp
 TimeStamp = /5443CC8A;
@@ -39,7 +39,7 @@ BeginCmp
 TimeStamp = /5443721A;
 Reference = U4;
 ValeurCmp = MPU-9250;
-IdModule  = ;
+IdModule  = buq2:24QFN-3MM-3MM;
 EndCmp
 
 BeginCmp

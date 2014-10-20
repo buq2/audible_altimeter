@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/buq2/src/audible_altimeter/audible_altimeter.sch)
-    (date "Sun Oct 19 23:35:23 2014")
+    (date "Mon Oct 20 08:03:53 2014")
     (tool "Eeschema (2014-10-15 BZR 5190)-product"))
   (components
     (comp (ref IC1)
@@ -34,6 +34,7 @@
       (tstamp 544377C7))
     (comp (ref U9)
       (value LS013B4DN04)
+      (footprint buq2:FPC-CONN-10-FCI)
       (libsource (lib buq2-kicad-components) (part LS013B4DN04))
       (sheetpath (names /) (tstamps /))
       (tstamp 54437CBB))
@@ -77,13 +78,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5443CC8A)))
   (libparts
-    (libpart (lib device) (part CRYSTAL)
-      (fields
-        (field (name Reference) X)
-        (field (name Value) CRYSTAL))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
     (libpart (lib buq2-kicad-components) (part BUQ2-ATXMEGA16A4U-A)
       (aliases
         (alias BUQ2-ATXMEGA32A4U-A)
@@ -138,101 +132,6 @@
         (pin (num 42) (name AC2/ADC2/PA2) (type BiDi))
         (pin (num 43) (name AC3/ADC3/PA3) (type BiDi))
         (pin (num 44) (name AC4/ADC4/PA4) (type BiDi))))
-    (libpart (lib buq2-kicad-components) (part CSS-0575A-SMT)
-      (description "Magnetic Buzzer")
-      (footprints
-        (fp BUZZER-CUI-5MM))
-      (fields
-        (field (name Reference) U)
-        (field (name Value) CSS-0575A-SMT))
-      (pins
-        (pin (num 1) (name IN) (type input))
-        (pin (num 2) (name GND) (type input))))
-    (libpart (lib buq2-kicad-components) (part MCP73831-SOT-23-5)
-      (description "Li-Poly Battery Manager")
-      (footprints
-        (fp SOT-23-5))
-      (fields
-        (field (name Reference) U)
-        (field (name Value) MCP73831-SOT-23-5))
-      (pins
-        (pin (num 1) (name STAT) (type input))
-        (pin (num 2) (name Vss) (type input))
-        (pin (num 3) (name Vbat) (type input))
-        (pin (num 4) (name Vdd) (type input))
-        (pin (num 5) (name PROG) (type input))))
-    (libpart (lib buq2-kicad-components) (part MPL3115A2)
-      (description Barometer)
-      (footprints
-        (fp 8-TLGA))
-      (fields
-        (field (name Reference) U)
-        (field (name Value) MPL3115A2))
-      (pins
-        (pin (num 1) (name Vdd) (type power_in))
-        (pin (num 2) (name CAP) (type passive))
-        (pin (num 3) (name GND) (type BiDi))
-        (pin (num 4) (name Vddio) (type BiDi))
-        (pin (num 5) (name INT2) (type BiDi))
-        (pin (num 6) (name INT1) (type BiDi))
-        (pin (num 7) (name SDA) (type BiDi))
-        (pin (num 8) (name SCL) (type BiDi))))
-    (libpart (lib buq2-kicad-components) (part MPU-9250)
-      (description "9-Axis Sensor")
-      (fields
-        (field (name Reference) U)
-        (field (name Value) MPU-9250))
-      (pins
-        (pin (num 1) (name RESV) (type passive))
-        (pin (num 2) (name NC) (type passive))
-        (pin (num 3) (name NC) (type passive))
-        (pin (num 4) (name NC4) (type passive))
-        (pin (num 5) (name NC) (type passive))
-        (pin (num 6) (name NC) (type passive))
-        (pin (num 7) (name AUX_CL) (type passive))
-        (pin (num 8) (name VCCIOD) (type passive))
-        (pin (num 9) (name AD0/SDO) (type passive))
-        (pin (num 10) (name REGOUT) (type passive))
-        (pin (num 11) (name FSYNC) (type passive))
-        (pin (num 12) (name INT) (type passive))
-        (pin (num 13) (name VDD) (type passive))
-        (pin (num 14) (name NC) (type passive))
-        (pin (num 15) (name NC) (type passive))
-        (pin (num 16) (name NC) (type passive))
-        (pin (num 17) (name NC) (type passive))
-        (pin (num 18) (name GND) (type passive))
-        (pin (num 19) (name RESV) (type passive))
-        (pin (num 20) (name RESV) (type passive))
-        (pin (num 21) (name AUX_DA) (type passive))
-        (pin (num 22) (name nCS) (type passive))
-        (pin (num 23) (name SCL/SCLK) (type passive))
-        (pin (num 24) (name SDA/SDI) (type passive))))
-    (libpart (lib buq2-kicad-components) (part TAG-CONNECT-ATMEL-PDI-CONNECTOR)
-      (footprints
-        (fp TAG-CONNECT6))
-      (fields
-        (field (name Reference) U)
-        (field (name Value) TAG-CONNECT-ATMEL-PDI-CONNECTOR))
-      (pins
-        (pin (num 1) (name PDI_DATA) (type input))
-        (pin (num 2) (name VCC) (type input))
-        (pin (num 3) (name NC) (type input))
-        (pin (num 4) (name NC) (type input))
-        (pin (num 5) (name PDI_CLK) (type input))
-        (pin (num 6) (name GND) (type input))))
-    (libpart (lib buq2-kicad-components) (part NCP4681-SC-70)
-      (description "Ultra Low Iq LDO")
-      (footprints
-        (fp SOT-353))
-      (fields
-        (field (name Reference) U)
-        (field (name Value) NCP4681-SC-70))
-      (pins
-        (pin (num 1) (name CE/NC) (type input))
-        (pin (num 2) (name NC) (type input))
-        (pin (num 3) (name GND) (type input))
-        (pin (num 4) (name VOut) (type input))
-        (pin (num 5) (name VIn) (type input))))
     (libpart (lib buq2-kicad-components) (part BUQ2-USB-MICRO-B)
       (description "USB Micro B connector")
       (footprints
@@ -250,6 +149,16 @@
         (pin (num 4) (name ID) (type BiDi))
         (pin (num 5) (name GND) (type power_in))
         (pin (num 6) (name SHELL) (type BiDi))))
+    (libpart (lib buq2-kicad-components) (part CSS-0575A-SMT)
+      (description "Magnetic Buzzer")
+      (footprints
+        (fp BUZZER-CUI-5MM))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) CSS-0575A-SMT))
+      (pins
+        (pin (num 1) (name IN) (type input))
+        (pin (num 2) (name GND) (type input))))
     (libpart (lib buq2-kicad-components) (part LS013B4DN04)
       (description "Sharp Memory LCD")
       (footprints
@@ -268,6 +177,19 @@
         (pin (num 8) (name EXTMODE) (type input))
         (pin (num 9) (name VSS) (type power_in))
         (pin (num 10) (name VSSA) (type power_in))))
+    (libpart (lib buq2-kicad-components) (part MCP73831-SOT-23-5)
+      (description "Li-Poly Battery Manager")
+      (footprints
+        (fp SOT-23-5))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MCP73831-SOT-23-5))
+      (pins
+        (pin (num 1) (name STAT) (type input))
+        (pin (num 2) (name Vss) (type input))
+        (pin (num 3) (name Vbat) (type input))
+        (pin (num 4) (name Vdd) (type input))
+        (pin (num 5) (name PROG) (type input))))
     (libpart (lib buq2-kicad-components) (part MCP7940M)
       (description "Real-Time Clock/Calendar")
       (footprints
@@ -301,7 +223,88 @@
         (pin (num 7) (name DAT0) (type input))
         (pin (num 8) (name DAT1) (type input))
         (pin (num 9) (name CARD_DETECT) (type input))
-        (pin (num 10) (name SHELL) (type input)))))
+        (pin (num 10) (name SHELL) (type input))))
+    (libpart (lib buq2-kicad-components) (part MPL3115A2)
+      (description Barometer)
+      (footprints
+        (fp 8-TLGA))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MPL3115A2))
+      (pins
+        (pin (num 1) (name Vdd) (type power_in))
+        (pin (num 2) (name CAP) (type passive))
+        (pin (num 3) (name GND) (type BiDi))
+        (pin (num 4) (name Vddio) (type BiDi))
+        (pin (num 5) (name INT2) (type BiDi))
+        (pin (num 6) (name INT1) (type BiDi))
+        (pin (num 7) (name SDA) (type BiDi))
+        (pin (num 8) (name SCL) (type BiDi))))
+    (libpart (lib buq2-kicad-components) (part MPU-9250)
+      (description "9-Axis Sensor")
+      (footprints
+        (fp 24QFN-3MM-3MM))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MPU-9250))
+      (pins
+        (pin (num 1) (name RESV) (type passive))
+        (pin (num 2) (name NC) (type passive))
+        (pin (num 3) (name NC) (type passive))
+        (pin (num 4) (name NC4) (type passive))
+        (pin (num 5) (name NC) (type passive))
+        (pin (num 6) (name NC) (type passive))
+        (pin (num 7) (name AUX_CL) (type passive))
+        (pin (num 8) (name VCCIOD) (type passive))
+        (pin (num 9) (name AD0/SDO) (type passive))
+        (pin (num 10) (name REGOUT) (type passive))
+        (pin (num 11) (name FSYNC) (type passive))
+        (pin (num 12) (name INT) (type passive))
+        (pin (num 13) (name VDD) (type passive))
+        (pin (num 14) (name NC) (type passive))
+        (pin (num 15) (name NC) (type passive))
+        (pin (num 16) (name NC) (type passive))
+        (pin (num 17) (name NC) (type passive))
+        (pin (num 18) (name GND) (type passive))
+        (pin (num 19) (name RESV) (type passive))
+        (pin (num 20) (name RESV) (type passive))
+        (pin (num 21) (name AUX_DA) (type passive))
+        (pin (num 22) (name nCS) (type passive))
+        (pin (num 23) (name SCL/SCLK) (type passive))
+        (pin (num 24) (name SDA/SDI) (type passive))))
+    (libpart (lib buq2-kicad-components) (part NCP4681-SC-70)
+      (description "Ultra Low Iq LDO")
+      (footprints
+        (fp SOT-353))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) NCP4681-SC-70))
+      (pins
+        (pin (num 1) (name CE/NC) (type input))
+        (pin (num 2) (name NC) (type input))
+        (pin (num 3) (name GND) (type input))
+        (pin (num 4) (name VOut) (type input))
+        (pin (num 5) (name VIn) (type input))))
+    (libpart (lib buq2-kicad-components) (part TAG-CONNECT-ATMEL-PDI-CONNECTOR)
+      (footprints
+        (fp TAG-CONNECT6))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) TAG-CONNECT-ATMEL-PDI-CONNECTOR))
+      (pins
+        (pin (num 1) (name PDI_DATA) (type input))
+        (pin (num 2) (name VCC) (type input))
+        (pin (num 3) (name NC) (type input))
+        (pin (num 4) (name NC) (type input))
+        (pin (num 5) (name PDI_CLK) (type input))
+        (pin (num 6) (name GND) (type input))))
+    (libpart (lib device) (part CRYSTAL)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) CRYSTAL))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive)))))
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
