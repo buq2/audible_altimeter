@@ -1,4 +1,109 @@
-Cmp-Mod V01 Created by Cvpcb (2014-10-15 BZR 5190)-product   date = Mon Oct 20 08:04:17 2014
+Cmp-Mod V01 Created by Cvpcb (2014-10-15 BZR 5190)-product   date = Tue Oct 21 07:59:30 2014
+
+BeginCmp
+TimeStamp = /54455DB4;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54455E07;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54455E31;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54455E5C;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5445CDDE;
+Reference = C5;
+ValeurCmp = 10u;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /5445CD85;
+Reference = C6;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5445D354;
+Reference = C7;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5445819F;
+Reference = C8;
+ValeurCmp = C;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /544581D8;
+Reference = C9;
+ValeurCmp = C;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5445B08F;
+Reference = C10;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5445AB56;
+Reference = C11;
+ValeurCmp = 4.7u;
+IdModule  = buq2:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54459D4D;
+Reference = C12;
+ValeurCmp = 4.7u;
+IdModule  = buq2:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5445B427;
+Reference = C13;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5445B7FD;
+Reference = C14;
+ValeurCmp = 1u;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5445B9FC;
+Reference = C15;
+ValeurCmp = 1u;
+IdModule  = buq2:SM0603;
+EndCmp
 
 BeginCmp
 TimeStamp = /5443CC8A;
@@ -8,10 +113,45 @@ IdModule  = buq2:USB-MICRO-B-FCI;
 EndCmp
 
 BeginCmp
+TimeStamp = /54459AE6;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /544551FE;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /5443671D;
 Reference = IC1;
 ValeurCmp = BUQ2-ATXMEGA128A4U-A;
 IdModule  = buq2:BUQ2-TQFP44;
+EndCmp
+
+BeginCmp
+TimeStamp = /54454F56;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54459BEB;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /544550A7;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
@@ -81,7 +221,7 @@ BeginCmp
 TimeStamp = /544377C7;
 Reference = X1;
 ValeurCmp = CRYSTAL;
-IdModule  = ;
+IdModule  = buq2:SM0805;
 EndCmp
 
 EndListe
