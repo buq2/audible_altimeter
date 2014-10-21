@@ -1,0 +1,188 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:buq2-kicad-components
+LIBS:audible_altimeter-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCP73831-SOT-23-5 U2
+U 1 1 54461EB4
+P 3850 2650
+F 0 "U2" H 3850 2650 60  0000 C CNN
+F 1 "MCP73831-SOT-23-5" H 3850 3550 60  0000 C CNN
+F 2 "" H 3850 2650 60  0001 C CNN
+F 3 "" H 3850 2650 60  0000 C CNN
+	1    3850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 54461EBB
+P 3100 2200
+F 0 "#PWR3" H 3100 2200 30  0001 C CNN
+F 1 "GND" H 3100 2130 30  0001 C CNN
+F 2 "" H 3100 2200 60  0000 C CNN
+F 3 "" H 3100 2200 60  0000 C CNN
+	1    3100 2200
+	0    1    1    0   
+$EndComp
+Text GLabel 4450 2350 2    39   Input ~ 0
++5V
+Text GLabel 3300 2350 0    39   Input ~ 0
+BATTERY
+$Comp
+L LED D1
+U 1 1 54461EC3
+P 4050 3050
+F 0 "D1" H 4050 3150 50  0000 C CNN
+F 1 "LED" H 4050 2950 50  0000 C CNN
+F 2 "" H 4050 3050 60  0001 C CNN
+F 3 "" H 4050 3050 60  0000 C CNN
+	1    4050 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 54461ECA
+P 3600 3050
+F 0 "R1" V 3680 3050 40  0000 C CNN
+F 1 "R" V 3607 3051 40  0000 C CNN
+F 2 "" V 3530 3050 30  0001 C CNN
+F 3 "" H 3600 3050 30  0000 C CNN
+	1    3600 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C5
+U 1 1 54461ED1
+P 4400 2650
+F 0 "C5" H 4400 2750 40  0000 L CNN
+F 1 "4.7u" H 4406 2565 40  0000 L CNN
+F 2 "" H 4438 2500 30  0001 C CNN
+F 3 "" H 4400 2650 60  0000 C CNN
+	1    4400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR5
+U 1 1 54461ED8
+P 4400 2900
+F 0 "#PWR5" H 4400 2900 30  0001 C CNN
+F 1 "GND" H 4400 2830 30  0001 C CNN
+F 2 "" H 4400 2900 60  0000 C CNN
+F 3 "" H 4400 2900 60  0000 C CNN
+	1    4400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR4
+U 1 1 54461EDE
+P 3300 2900
+F 0 "#PWR4" H 3300 2900 30  0001 C CNN
+F 1 "GND" H 3300 2830 30  0001 C CNN
+F 2 "" H 3300 2900 60  0000 C CNN
+F 3 "" H 3300 2900 60  0000 C CNN
+	1    3300 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 54461EE4
+P 3300 2650
+F 0 "C4" H 3300 2750 40  0000 L CNN
+F 1 "4.7u" H 3306 2565 40  0000 L CNN
+F 2 "" H 3338 2500 30  0001 C CNN
+F 3 "" H 3300 2650 60  0000 C CNN
+	1    3300 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2200 3350 2200
+Wire Wire Line
+	4400 2450 4400 2350
+Wire Wire Line
+	4250 2350 4450 2350
+Connection ~ 4400 2350
+Wire Wire Line
+	4400 2900 4400 2850
+Wire Wire Line
+	4250 2350 4250 3050
+Wire Wire Line
+	2950 2050 2950 3050
+Wire Wire Line
+	2950 2050 3350 2050
+Wire Wire Line
+	3300 2900 3300 2850
+Wire Wire Line
+	3350 2350 3300 2350
+Wire Wire Line
+	3300 2350 3300 2450
+Wire Wire Line
+	2950 3050 3350 3050
+$Comp
+L NCP4681-SC-70 U3
+U 1 1 54465433
+P 6250 2700
+F 0 "U3" H 6250 2250 60  0000 C CNN
+F 1 "NCP4681-SC-70" H 6300 3050 60  0000 C CNN
+F 2 "" H 6250 2150 60  0001 C CNN
+F 3 "" H 6250 2150 60  0000 C CNN
+	1    6250 2700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5750 2750
+$Comp
+L GND #PWR6
+U 1 1 5446543B
+P 5600 2900
+F 0 "#PWR6" H 5600 2900 30  0001 C CNN
+F 1 "GND" H 5600 2830 30  0001 C CNN
+F 2 "" H 5600 2900 60  0000 C CNN
+F 3 "" H 5600 2900 60  0000 C CNN
+	1    5600 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 2900 5750 2900
+$EndSCHEMATC
