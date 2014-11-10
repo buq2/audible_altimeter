@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 5 11
 Title ""
 Date ""
 Rev ""
@@ -57,10 +57,10 @@ F 3 "" H 6100 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR8
+L GND #PWR13
 U 1 1 54462E61
 P 5100 4600
-F 0 "#PWR8" H 5100 4600 30  0001 C CNN
+F 0 "#PWR13" H 5100 4600 30  0001 C CNN
 F 1 "GND" H 5100 4530 30  0001 C CNN
 F 2 "" H 5100 4600 60  0000 C CNN
 F 3 "" H 5100 4600 60  0000 C CNN
@@ -96,10 +96,10 @@ Wire Wire Line
 Connection ~ 5350 4300
 Connection ~ 5150 4300
 $Comp
-L GND #PWR9
+L GND #PWR14
 U 1 1 54462E79
 P 5250 3800
-F 0 "#PWR9" H 5250 3800 30  0001 C CNN
+F 0 "#PWR14" H 5250 3800 30  0001 C CNN
 F 1 "GND" H 5250 3730 30  0001 C CNN
 F 2 "" H 5250 3800 60  0000 C CNN
 F 3 "" H 5250 3800 60  0000 C CNN
@@ -125,4 +125,19 @@ $EndComp
 Wire Wire Line
 	5200 4450 5200 4600
 Connection ~ 5200 4600
+Text HLabel 6600 4300 2    60   Input ~ 0
+I2C_SCL
+Text HLabel 6600 4450 2    60   Input ~ 0
+I2C_SDA
+Text HLabel 6600 4600 2    60   Input ~ 0
+INT1
+Text HLabel 6600 4750 2    60   Input ~ 0
+INT2
+Text HLabel 4950 4300 0    60   Input ~ 0
+VCC
+Wire Wire Line
+	5600 4750 5000 4750
+Wire Wire Line
+	5000 4750 5000 4300
+Connection ~ 5000 4300
 $EndSCHEMATC

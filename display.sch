@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -57,10 +57,10 @@ F 3 "" H 5600 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR11
+L GND #PWR17
 U 1 1 54463B98
 P 3950 3900
-F 0 "#PWR11" H 3950 3900 30  0001 C CNN
+F 0 "#PWR17" H 3950 3900 30  0001 C CNN
 F 1 "GND" H 3950 3830 30  0001 C CNN
 F 2 "" H 3950 3900 60  0000 C CNN
 F 3 "" H 3950 3900 60  0000 C CNN
@@ -126,4 +126,20 @@ Wire Wire Line
 	5350 3500 5350 3600
 Connection ~ 4900 3500
 Connection ~ 4050 3300
+Text HLabel 5350 2700 0    60   Input ~ 0
+SCLK
+Text HLabel 5350 2850 0    60   Input ~ 0
+SI
+Text HLabel 5350 3000 0    60   Input ~ 0
+SCS
+Text HLabel 3900 3300 0    60   Input ~ 0
+DISP_ON
+Text HLabel 4400 3450 0    60   Input ~ 0
+VDD
+Text HLabel 4750 3500 0    60   Input ~ 0
+VDD
+Text HLabel 5350 3150 0    60   Input ~ 0
+INVERSION_SIG
+Text HLabel 5350 3750 0    60   Input ~ 0
+INVERSION_HARD
 $EndSCHEMATC

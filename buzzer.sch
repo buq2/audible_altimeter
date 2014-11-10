@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 8 11
 Title ""
 Date ""
 Rev ""
@@ -90,20 +90,16 @@ F 3 "" H 5450 3250 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR12
+L GND #PWR18
 U 1 1 54464591
 P 5450 3950
-F 0 "#PWR12" H 5450 3950 30  0001 C CNN
+F 0 "#PWR18" H 5450 3950 30  0001 C CNN
 F 1 "GND" H 5450 3880 30  0001 C CNN
 F 2 "" H 5450 3950 60  0000 C CNN
 F 3 "" H 5450 3950 60  0000 C CNN
 	1    5450 3950
 	1    0    0    -1  
 $EndComp
-Text GLabel 5450 2900 1    60   Input ~ 0
-BATTERY
-Text GLabel 4650 3650 0    60   Input ~ 0
-BUZZER_DRIVE
 Wire Wire Line
 	5800 3350 5800 3450
 Wire Wire Line
@@ -117,4 +113,8 @@ Wire Wire Line
 	5450 3950 5450 3850
 Wire Wire Line
 	5450 3050 5450 2900
+Text HLabel 5450 2900 1    60   Input ~ 0
+BATTERY
+Text HLabel 4650 3650 0    60   Input ~ 0
+BUZZER_DRIVE
 $EndSCHEMATC
