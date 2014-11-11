@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-09 BZR 5259)-product   date = Mon Nov 10 21:50:27 2014
+Cmp-Mod V01 Created by Cvpcb (2014-11-09 BZR 5259)-product   date = Tue Nov 11 08:23:19 2014
 
 BeginCmp
 TimeStamp = /5446056F/54461046;
@@ -285,6 +285,13 @@ TimeStamp = /5461699E/54616A4F;
 Reference = U10;
 ValeurCmp = LINX-FM-GPS;
 IdModule  = buq2:LINX-FM-GPS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5461BBD1/5461BC2E;
+Reference = U11;
+ValeurCmp = SI7020-A10;
+IdModule  = buq2:DFN-6-3X3MM;
 EndCmp
 
 BeginCmp

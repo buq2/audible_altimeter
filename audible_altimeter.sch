@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title ""
 Date ""
 Rev ""
@@ -132,5 +132,14 @@ S 2350 5400 1150 600
 U 5461699E
 F0 "GPS" 60
 F1 "gps.sch" 60
+$EndSheet
+$Sheet
+S 3850 5400 1200 650 
+U 5461BBD1
+F0 "Humidity" 60
+F1 "humidity.sch" 60
+F2 "I2C_SDA" I R 5050 5600 60 
+F3 "VDD" I L 3850 5600 60 
+F4 "I2C_SCL" I R 5050 5750 60 
 $EndSheet
 $EndSCHEMATC
