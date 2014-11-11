@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-09 BZR 5259)-product   date = Tue Nov 11 08:23:19 2014
+Cmp-Mod V01 Created by Cvpcb (2014-11-09 BZR 5259)-product   date = Tue Nov 11 20:55:16 2014
 
 BeginCmp
 TimeStamp = /5446056F/54461046;
@@ -141,6 +141,20 @@ IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /5461BBD1/5461B10D;
+Reference = C21;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54462AE3/54633DDE;
+Reference = C22;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /54463294/5446340E;
 Reference = CON1;
 ValeurCmp = BUQ2-USB-MICRO-B;
@@ -218,6 +232,20 @@ IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /54464A80/54632D6A;
+Reference = R6;
+ValeurCmp = 1.5k;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54464A80/54632DC5;
+Reference = R7;
+ValeurCmp = 1.5k;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /5446056F/54461037;
 Reference = U1;
 ValeurCmp = MCP7940M;
@@ -256,7 +284,7 @@ BeginCmp
 TimeStamp = /54463818/54463B91;
 Reference = U6;
 ValeurCmp = LS013B4DN04;
-IdModule  = buq2:LS013B7DH03-FPC;
+IdModule  = buq2:FPC-CONN-10-FCI-BOTTOM-CONTACTS;
 EndCmp
 
 BeginCmp
@@ -295,10 +323,17 @@ IdModule  = buq2:DFN-6-3X3MM;
 EndCmp
 
 BeginCmp
+TimeStamp = /54462AE3/54633C77;
+Reference = U12;
+ValeurCmp = MS5805-02BA01;
+IdModule  = buq2:MS5805-02BA01;
+EndCmp
+
+BeginCmp
 TimeStamp = /5446056F/5446103E;
 Reference = X1;
 ValeurCmp = CRYSTAL;
-IdModule  = buq2:SM1206;
+IdModule  = buq2:SM0805;
 EndCmp
 
 EndListe
