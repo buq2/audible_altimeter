@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 12
+Sheet 7 13
 Title ""
 Date ""
 Rev ""
@@ -57,10 +57,10 @@ F 3 "" H 5600 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L GND #PWR020
 U 1 1 54463B98
 P 3950 3900
-F 0 "#PWR019" H 3950 3900 30  0001 C CNN
+F 0 "#PWR020" H 3950 3900 30  0001 C CNN
 F 1 "GND" H 3950 3830 30  0001 C CNN
 F 2 "" H 3950 3900 60  0000 C CNN
 F 3 "" H 3950 3900 60  0000 C CNN
@@ -78,8 +78,6 @@ F 3 "" H 4050 3500 60  0000 C CNN
 	1    4050 3500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3950 3900 5350 3900
 Wire Wire Line
 	4600 4050 5350 4050
 Wire Wire Line
@@ -140,6 +138,21 @@ Text HLabel 4750 3500 0    60   Input ~ 0
 VDD
 Text HLabel 5350 3150 0    60   Input ~ 0
 INVERSION_SIG
-Text HLabel 5350 3750 0    60   Input ~ 0
+Text HLabel 5300 3750 0    60   Input ~ 0
 INVERSION_PROG
+Wire Wire Line
+	5350 3900 5000 3900
+Wire Wire Line
+	5000 3900 5000 3950
+Wire Wire Line
+	5000 3950 4850 3950
+Wire Wire Line
+	4850 3950 4850 3900
+Wire Wire Line
+	4850 3900 3950 3900
+Wire Wire Line
+	4900 3900 4900 3950
+Connection ~ 4900 3950
+Wire Wire Line
+	5300 3750 5350 3750
 $EndSCHEMATC
