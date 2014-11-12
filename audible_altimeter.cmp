@@ -1,156 +1,79 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-09 BZR 5259)-product   date = Wed Nov 12 08:30:01 2014
+Cmp-Mod V01 Created by Cvpcb (2014-11-09 BZR 5259)-product   date = Wed Nov 12 21:50:59 2014
 
 BeginCmp
 TimeStamp = /5446056F/54461046;
 Reference = C1;
-ValeurCmp = C;
+ValeurCmp = 18.1p;
 IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5446056F/5446104D;
 Reference = C2;
-ValeurCmp = C;
-IdModule  = buq2:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5446056F/5446105A;
-Reference = C3;
-ValeurCmp = 100n;
+ValeurCmp = 18.1p;
 IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5446183C/54461EE4;
-Reference = C4;
+Reference = C3;
 ValeurCmp = 4.7u;
 IdModule  = buq2:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5446183C/54461ED1;
-Reference = C5;
+Reference = C4;
 ValeurCmp = 4.7u;
 IdModule  = buq2:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /54462AE3/54462E6F;
-Reference = C6;
-ValeurCmp = 10u;
-IdModule  = buq2:SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /54462AE3/54462E68;
-Reference = C7;
-ValeurCmp = 100n;
-IdModule  = buq2:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54462AE3/54462E82;
-Reference = C8;
-ValeurCmp = 100n;
-IdModule  = buq2:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54463818/54463B9E;
-Reference = C9;
-ValeurCmp = 100n;
-IdModule  = buq2:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54463818/54463BAA;
-Reference = C10;
-ValeurCmp = 1u;
-IdModule  = buq2:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54463818/54463BB4;
-Reference = C11;
-ValeurCmp = 1u;
-IdModule  = buq2:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54464A80/54464F17;
-Reference = C12;
-ValeurCmp = 100n;
-IdModule  = buq2:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54464A80/54464F1E;
-Reference = C13;
-ValeurCmp = 100n;
-IdModule  = buq2:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54464A80/54464F25;
-Reference = C14;
-ValeurCmp = 100n;
-IdModule  = buq2:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54464A80/54464F2C;
-Reference = C15;
-ValeurCmp = 100n;
-IdModule  = buq2:SM0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /5446183C/54612E49;
-Reference = C16;
+Reference = C5;
 ValeurCmp = 100n;
 IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /5446183C/546131AA;
-Reference = C17;
+Reference = C6;
 ValeurCmp = 100n;
 IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /544655FD/54610C34;
-Reference = C18;
-ValeurCmp = 10n;
+TimeStamp = /5463ABA7/5463E3BF;
+Reference = C7;
+ValeurCmp = 1u;
 IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /544655FD/54610CB2;
-Reference = C19;
-ValeurCmp = 100n;
+TimeStamp = /5463ABA7/5463DF09;
+Reference = C8;
+ValeurCmp = 1u;
 IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /544655FD/54610A3E;
-Reference = C20;
-ValeurCmp = 100n;
+TimeStamp = /5463ABA7/5463ADCA;
+Reference = C9;
+ValeurCmp = 1u;
 IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /5461BBD1/5461B10D;
-Reference = C21;
-ValeurCmp = 100n;
+TimeStamp = /5463ABA7/5463DA87;
+Reference = C10;
+ValeurCmp = 1u;
 IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54462AE3/54633DDE;
-Reference = C22;
-ValeurCmp = 100n;
+TimeStamp = /5463ABA7/5463E875;
+Reference = C11;
+ValeurCmp = 1u;
 IdModule  = buq2:SM0603;
 EndCmp
 
@@ -159,6 +82,13 @@ TimeStamp = /54463294/5446340E;
 Reference = CON1;
 ValeurCmp = BUQ2-USB-MICRO-B;
 IdModule  = buq2:USB-MICRO-B-FCI-10118194;
+EndCmp
+
+BeginCmp
+TimeStamp = /5461699E/5463C025;
+Reference = C_SHUNT1;
+ValeurCmp = 1.8p;
+IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
@@ -197,59 +127,164 @@ IdModule  = buq2:SOT-23-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /5446183C/54461ECA;
+TimeStamp = /5446056F/5460FE77;
 Reference = R1;
+ValeurCmp = 10k;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5446183C/54461ECA;
+Reference = R2;
 ValeurCmp = 330;
 IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54464246/54464583;
-Reference = R2;
-ValeurCmp = R;
-IdModule  = buq2:SM0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /5446056F/5460FE77;
-Reference = R3;
-ValeurCmp = 10k;
-IdModule  = buq2:SM0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /5446183C/546125B9;
-Reference = R4;
+Reference = R3;
 ValeurCmp = 4k;
 IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /544655FD/54611795;
-Reference = R5;
-ValeurCmp = 10k;
+TimeStamp = /54464246/54464583;
+Reference = R4;
+ValeurCmp = R;
 IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54464A80/54632D6A;
-Reference = R6;
+Reference = R5;
 ValeurCmp = 1.5k;
 IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54464A80/54632DC5;
-Reference = R7;
+Reference = R6;
 ValeurCmp = 1.5k;
 IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /544655FD/54611795;
+Reference = R7;
+ValeurCmp = 10k;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463E3B8;
+Reference = R8;
+ValeurCmp = 10k;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463E3D4;
+Reference = R9;
+ValeurCmp = 100;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463DF02;
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463ACF8;
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463DA80;
+Reference = R12;
+ValeurCmp = 10k;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463DF1E;
+Reference = R13;
+ValeurCmp = 100;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463D069;
+Reference = R14;
+ValeurCmp = 100;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463DA9C;
+Reference = R15;
+ValeurCmp = 100;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463E86E;
+Reference = R16;
+ValeurCmp = 10k;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463E88A;
+Reference = R17;
+ValeurCmp = 100;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463E3B1;
+Reference = SW1;
+ValeurCmp = SW_LEFT;
+IdModule  = buq2:PUSHBUTTON_4x4_ROTATED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463DEFB;
+Reference = SW2;
+ValeurCmp = SW_DOWN;
+IdModule  = buq2:PUSHBUTTON_4x4_ROTATED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463AC7C;
+Reference = SW3;
+ValeurCmp = SW_UP;
+IdModule  = buq2:PUSHBUTTON_4x4_ROTATED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463DA79;
+Reference = SW4;
+ValeurCmp = SW_CENTER;
+IdModule  = buq2:PUSHBUTTON_4x4_ROTATED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463ABA7/5463E867;
+Reference = SW5;
+ValeurCmp = SW_RIGHT;
+IdModule  = buq2:PUSHBUTTON_4x4_ROTATED;
 EndCmp
 
 BeginCmp
 TimeStamp = /5446056F/54461037;
 Reference = U1;
 ValeurCmp = MCP7940M;
-IdModule  = buq2:8-SOIC;
+IdModule  = buq2:8-TDFN;
 EndCmp
 
 BeginCmp
@@ -281,52 +316,87 @@ IdModule  = buq2:8-TLGA;
 EndCmp
 
 BeginCmp
-TimeStamp = /54463818/54463B91;
+TimeStamp = /54462AE3/54633C77;
 Reference = U6;
+ValeurCmp = MS5805-02BA01;
+IdModule  = buq2:MS5805-02BA01;
+EndCmp
+
+BeginCmp
+TimeStamp = /54463818/54463B91;
+Reference = U7;
 ValeurCmp = LS013B4DN04;
 IdModule  = buq2:FPC-CONN-10-FCI-BOTTOM-CONTACTS;
 EndCmp
 
 BeginCmp
 TimeStamp = /54464246/54464575;
-Reference = U7;
+Reference = U8;
 ValeurCmp = CSS-0575A-SMT;
 IdModule  = buq2:BUZZER-CUI-5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /54464A80/54464F10;
-Reference = U8;
+Reference = U9;
 ValeurCmp = TAG-CONNECT-ATMEL-PDI-CONNECTOR;
 IdModule  = buq2:TAG-CONNECT6;
 EndCmp
 
 BeginCmp
 TimeStamp = /544655FD/544656C2;
-Reference = U9;
+Reference = U10;
 ValeurCmp = MPU-9250;
 IdModule  = buq2:24QFN-3MM-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /5461699E/54616A4F;
-Reference = U10;
+Reference = U11;
 ValeurCmp = LINX-FM-GPS;
 IdModule  = buq2:LINX-FM-GPS;
 EndCmp
 
 BeginCmp
 TimeStamp = /5461BBD1/5461BC2E;
-Reference = U11;
+Reference = U12;
 ValeurCmp = SI7020-A10;
 IdModule  = buq2:DFN-6-3X3MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /54462AE3/54633C77;
-Reference = U12;
-ValeurCmp = MS5805-02BA01;
-IdModule  = buq2:MS5805-02BA01;
+TimeStamp = /5462FBEF/54630036;
+Reference = U13;
+ValeurCmp = FLASH_MEMORY;
+IdModule  = buq2:8-SOIC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5462FBEF/54630053;
+Reference = U14;
+ValeurCmp = RAM_MEMORY;
+IdModule  = buq2:8-SOIC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5461699E/5463BF79;
+Reference = U15;
+ValeurCmp = W3011A;
+IdModule  = buq2:W3011A;
+EndCmp
+
+BeginCmp
+TimeStamp = /54463294/54648D2E;
+Reference = VR1;
+ValeurCmp = VR;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54463294/54648C4F;
+Reference = VR2;
+ValeurCmp = VR;
+IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
@@ -334,6 +404,132 @@ TimeStamp = /5446056F/5446103E;
 Reference = X1;
 ValeurCmp = CRYSTAL;
 IdModule  = buq2:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5446056F/5446105A;
+Reference = XC1;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54462AE3/54462E6F;
+Reference = XC2;
+ValeurCmp = 10u;
+IdModule  = buq2:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54462AE3/54462E68;
+Reference = XC3;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54462AE3/54462E82;
+Reference = XC4;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54462AE3/54633DDE;
+Reference = XC5;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54463818/54463B9E;
+Reference = XC6;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54463818/54463BAA;
+Reference = XC7;
+ValeurCmp = 1u;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54463818/54463BB4;
+Reference = XC8;
+ValeurCmp = 1u;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54464A80/54464F17;
+Reference = XC9;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54464A80/54464F1E;
+Reference = XC10;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54464A80/54464F25;
+Reference = XC11;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54464A80/54464F2C;
+Reference = XC12;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /544655FD/54610C34;
+Reference = XC13;
+ValeurCmp = 10n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /544655FD/54610CB2;
+Reference = XC14;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /544655FD/54610A3E;
+Reference = XC15;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5461BBD1/5461B10D;
+Reference = XC16;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5462FBEF/5463014D;
+Reference = XC17;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5462FBEF/54630257;
+Reference = XC18;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
 EndCmp
 
 EndListe
