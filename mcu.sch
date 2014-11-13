@@ -292,12 +292,12 @@ Text HLabel 5700 2900 2    60   Input ~ 0
 GPS_PULSE_PER_SECOND
 Text HLabel 5700 3000 2    60   Input ~ 0
 BUTTON_UP
-Text HLabel 5700 3100 2    60   Input ~ 0
+Text HLabel 5700 3450 2    60   Input ~ 0
 BUTTON_DOWN
-Text HLabel 5700 3200 2    60   Input ~ 0
+Text HLabel 5700 3100 2    60   Input ~ 0
 BUTTON_LEFT
 Text HLabel 5700 3350 2    60   Input ~ 0
 BUTTON_RIGHT
-Text HLabel 5700 3450 2    60   Input ~ 0
+Text HLabel 5700 3200 2    60   Input ~ 0
 BUTTON_CENTER
 $EndSCHEMATC
