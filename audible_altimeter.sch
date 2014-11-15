@@ -56,13 +56,13 @@ F4 "VCC" I L 2350 950 60
 F5 "MULTI_FUNCTIONAL" I R 3350 1150 60 
 $EndSheet
 $Sheet
-S 2400 3950 1000 550 
+S 1000 4000 1000 550 
 U 5446183C
 F0 "Battery" 60
 F1 "batter.sch" 60
-F2 "BATTERY" I L 2400 4100 60 
-F3 "+5V" I L 2400 4250 60 
-F4 "+3.3V" I R 3400 4100 60 
+F2 "BATTERY" I L 1000 4150 60 
+F3 "+5V" I L 1000 4300 60 
+F4 "+3.3V" I R 2000 4150 60 
 $EndSheet
 $Sheet
 S 9600 750  1100 1150
@@ -88,13 +88,13 @@ F5 "INT2" I R 3350 2200 60
 F6 "VCC" I L 2300 1900 60 
 $EndSheet
 $Sheet
-S 4850 3150 1100 550 
+S 3450 3250 1100 550 
 U 54463294
 F0 "USB" 60
 F1 "usb.sch" 60
-F2 "VBUS" I L 4850 3250 60 
-F3 "D-" I L 4850 3350 60 
-F4 "D+" I L 4850 3450 60 
+F2 "VBUS" I L 3450 3350 60 
+F3 "D-" I L 3450 3450 60 
+F4 "D+" I L 3450 3550 60 
 $EndSheet
 $Sheet
 S 7600 800  1100 1050
@@ -110,12 +110,12 @@ F7 "INVERSION_SIG" I L 7600 1450 60
 F8 "INVERSION_PROG" I L 7600 1550 60 
 $EndSheet
 $Sheet
-S 7250 3000 1050 550 
+S 1050 3100 1050 550 
 U 54464246
 F0 "Buzzer" 60
 F1 "buzzer.sch" 60
-F2 "BATTERY" I L 7250 3200 60 
-F3 "BUZZER_DRIVE" I L 7250 3350 60 
+F2 "BATTERY" I L 1050 3300 60 
+F3 "BUZZER_DRIVE" I L 1050 3450 60 
 $EndSheet
 $Sheet
 S 6100 3950 2250 2400
@@ -160,14 +160,14 @@ F4 "I2C_SCL" I R 5250 1000 60
 F5 "INT" I R 5250 1150 60 
 $EndSheet
 $Sheet
-S 2350 5400 1150 600 
+S 950  5000 1150 600 
 U 5461699E
 F0 "GPS" 60
 F1 "gps.sch" 60
-F2 "TX" I R 3500 5550 60 
-F3 "RX" I L 2350 5550 60 
-F4 "VCC" I L 2350 5700 60 
-F5 "PULSE_PER_SECOND" I R 3500 5900 60 
+F2 "TX" I R 2100 5150 60 
+F3 "RX" I L 950 5150 60 
+F4 "VCC" I L 950 5300 60 
+F5 "PULSE_PER_SECOND" I R 2100 5500 60 
 $EndSheet
 $Sheet
 S 4300 1650 1200 650 
@@ -194,7 +194,7 @@ Text Label 3350 1050 0    60   ~ 0
 I2C_SDA
 Text Label 3350 2000 0    60   ~ 0
 I2C_SDA
-Text Label 3400 4100 0    60   ~ 0
+Text Label 2000 4150 0    60   ~ 0
 VCC_3.3
 Text Label 2300 1900 2    60   ~ 0
 VCC_3.3
@@ -226,11 +226,11 @@ Text Label 8350 4500 0    60   ~ 0
 MCU_TX
 Text Label 6100 4600 2    60   ~ 0
 MCU_RX
-Text Label 2350 5550 2    60   ~ 0
+Text Label 950  5150 2    60   ~ 0
 MCU_RX
-Text Label 3500 5550 0    60   ~ 0
+Text Label 2100 5150 0    60   ~ 0
 MCU_TX
-Text Label 2350 5700 2    60   ~ 0
+Text Label 950  5300 2    60   ~ 0
 VCC_3.3
 Text Label 8350 4200 0    60   ~ 0
 MOSI
@@ -242,17 +242,17 @@ Text Label 6100 4200 2    60   ~ 0
 D-
 Text Label 6100 4300 2    60   ~ 0
 D+
-Text Label 4850 3350 2    60   ~ 0
+Text Label 3450 3450 2    60   ~ 0
 D-
-Text Label 4850 3450 2    60   ~ 0
+Text Label 3450 3550 2    60   ~ 0
 D+
-Text Label 4850 3250 2    60   ~ 0
+Text Label 3450 3350 2    60   ~ 0
 +5V
-Text Label 2400 4250 2    60   ~ 0
+Text Label 1000 4300 2    60   ~ 0
 +5V
-Text Label 2400 4100 2    60   ~ 0
+Text Label 1000 4150 2    60   ~ 0
 BATTERY
-Text Label 7250 3200 2    60   ~ 0
+Text Label 1050 3300 2    60   ~ 0
 BATTERY
 Text Label 6100 4750 2    60   ~ 0
 VCC_3.3
@@ -260,7 +260,7 @@ Text Label 8350 4800 0    60   ~ 0
 I2C_SCL
 Text Label 8350 4650 0    60   ~ 0
 I2C_SDA
-Text Label 7250 3350 2    60   ~ 0
+Text Label 1050 3450 2    60   ~ 0
 BUZZER_DRIVE
 Text Label 8350 5100 0    60   ~ 0
 BUZZER_DRIVE
@@ -317,7 +317,7 @@ CARD_DETECT
 Text Label 6100 4900 2    60   ~ 0
 CARD_DETECT
 NoConn ~ 3350 2200
-Text Label 3500 5900 0    60   ~ 0
+Text Label 2100 5500 0    60   ~ 0
 GPS_PULSE_PER_SECOND
 Text Label 6100 5050 2    60   ~ 0
 GPS_PULSE_PER_SECOND
