@@ -191,11 +191,11 @@ Text HLabel 3000 4500 0    60   Input ~ 0
 D+
 Text HLabel 5700 4300 2    60   Input ~ 0
 MOSI
-Text HLabel 5700 4400 2    60   Input ~ 0
+Text HLabel 7250 4400 2    60   Input ~ 0
 MISO
 Text HLabel 5700 4500 2    60   Input ~ 0
 SCK
-Text Notes 6150 4400 0    60   ~ 0
+Text Notes 6100 4350 0    60   ~ 0
 SPI
 Text Notes 2550 4500 0    60   ~ 0
 USB
@@ -300,4 +300,44 @@ Text HLabel 5700 3350 2    60   Input ~ 0
 BUTTON_RIGHT
 Text HLabel 5700 3200 2    60   Input ~ 0
 BUTTON_CENTER
+$Comp
+L R R20
+U 1 1 547A08E0
+P 7050 4150
+F 0 "R20" V 7130 4150 40  0000 C CNN
+F 1 "10k" V 7057 4151 40  0000 C CNN
+F 2 "" V 6980 4150 30  0000 C CNN
+F 3 "" H 7050 4150 30  0000 C CNN
+	1    7050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R21
+U 1 1 547A090C
+P 7050 4650
+F 0 "R21" V 7130 4650 40  0000 C CNN
+F 1 "10k" V 7057 4651 40  0000 C CNN
+F 2 "" V 6980 4650 30  0000 C CNN
+F 3 "" H 7050 4650 30  0000 C CNN
+	1    7050 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR028
+U 1 1 547A0947
+P 7050 4900
+F 0 "#PWR028" H 7050 4900 30  0001 C CNN
+F 1 "GND" H 7050 4830 30  0001 C CNN
+F 2 "" H 7050 4900 60  0000 C CNN
+F 3 "" H 7050 4900 60  0000 C CNN
+	1    7050 4900
+	1    0    0    -1  
+$EndComp
+Text HLabel 7050 3900 1    60   Input ~ 0
+VDD
+Wire Wire Line
+	5700 4400 7250 4400
+Connection ~ 7050 4400
+Text Notes 7200 4800 0    60   ~ 0
+These pull-up/downs\nare only for possible\ndebugging.\nRemove from final.
 $EndSCHEMATC
