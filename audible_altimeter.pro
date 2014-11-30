@@ -1,4 +1,4 @@
-update=Sat Nov 15 19:06:47 2014
+update=Sun Nov 30 21:31:38 2014
 version=1
 last_client=kicad
 [cvpcb]
@@ -41,8 +41,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=/home/buq2/src/kicad-components/buq2-kicad-components
-[general]
-version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -63,3 +61,5 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[general]
+version=1
