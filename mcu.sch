@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 14
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -199,10 +199,6 @@ Text Notes 6100 4350 0    60   ~ 0
 SPI
 Text Notes 2550 4500 0    60   ~ 0
 USB
-Text HLabel 3000 3550 0    60   Input ~ 0
-RX
-Text HLabel 3000 3650 0    60   Input ~ 0
-TX
 $Comp
 L R R5
 U 1 1 54632D6A
@@ -259,26 +255,16 @@ Text Label 3000 2500 2    60   ~ 0
 PDI_CLK
 Text Label 3000 2600 2    60   ~ 0
 PDI_DATA
-Text HLabel 5700 3550 2    60   Input ~ 0
-DISPLAY_INVERT
-Text HLabel 5700 3650 2    60   Input ~ 0
+Text HLabel 3000 4200 0    60   Input ~ 0
 BUZZER_DRIVE
 Text HLabel 5700 2500 2    60   Input ~ 0
 CLOCK_INT
-Text HLabel 5700 2600 2    60   Input ~ 0
-ACCELERATOR_INT
 Text HLabel 5700 2700 2    60   Input ~ 0
 BAROMETER_INT
 Text HLabel 3000 3800 0    60   Input ~ 0
 CSn_FLASH
 Text HLabel 3000 3900 0    60   Input ~ 0
-CSn_RAM
-Text HLabel 3000 4000 0    60   Input ~ 0
 CSp_DISPLAY
-Text HLabel 3000 4100 0    60   Input ~ 0
-CSn_SD_CARD
-Text HLabel 5700 2800 2    60   Input ~ 0
-SD_CARD_DETECT
 NoConn ~ 3000 4300
 NoConn ~ 3000 3450
 NoConn ~ 3000 3350
@@ -287,57 +273,25 @@ NoConn ~ 3000 3100
 NoConn ~ 5700 4000
 NoConn ~ 5700 4100
 NoConn ~ 5700 4200
-NoConn ~ 3000 4200
-Text HLabel 5700 2900 2    60   Input ~ 0
-GPS_PULSE_PER_SECOND
 Text HLabel 5700 3000 2    60   Input ~ 0
 BUTTON_UP
-Text HLabel 5700 3450 2    60   Input ~ 0
+Text HLabel 5700 3200 2    60   Input ~ 0
 BUTTON_DOWN
 Text HLabel 5700 3100 2    60   Input ~ 0
-BUTTON_LEFT
-Text HLabel 5700 3350 2    60   Input ~ 0
-BUTTON_RIGHT
-Text HLabel 5700 3200 2    60   Input ~ 0
 BUTTON_CENTER
-$Comp
-L R R20
-U 1 1 547A08E0
-P 7050 4150
-F 0 "R20" V 7130 4150 40  0000 C CNN
-F 1 "10k" V 7057 4151 40  0000 C CNN
-F 2 "buq2:SM0603" V 6980 4150 30  0001 C CNN
-F 3 "" H 7050 4150 30  0000 C CNN
-	1    7050 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R21
-U 1 1 547A090C
-P 7050 4650
-F 0 "R21" V 7130 4650 40  0000 C CNN
-F 1 "10k" V 7057 4651 40  0000 C CNN
-F 2 "buq2:SM0603" V 6980 4650 30  0001 C CNN
-F 3 "" H 7050 4650 30  0000 C CNN
-	1    7050 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR028
-U 1 1 547A0947
-P 7050 4900
-F 0 "#PWR028" H 7050 4900 30  0001 C CNN
-F 1 "GND" H 7050 4830 30  0001 C CNN
-F 2 "" H 7050 4900 60  0000 C CNN
-F 3 "" H 7050 4900 60  0000 C CNN
-	1    7050 4900
-	1    0    0    -1  
-$EndComp
-Text HLabel 7050 3900 1    60   Input ~ 0
-VDD
 Wire Wire Line
 	5700 4400 7250 4400
 Connection ~ 7050 4400
-Text Notes 7200 4800 0    60   ~ 0
-These pull-up/downs\nare only for possible\ndebugging.\nRemove from final.
+NoConn ~ 3000 3550
+NoConn ~ 3000 3650
+NoConn ~ 3000 4100
+NoConn ~ 5700 3350
+Text HLabel 3000 4000 0    60   Input ~ 0
+DISP_ON
+NoConn ~ 5700 2600
+NoConn ~ 5700 2800
+NoConn ~ 5700 2900
+NoConn ~ 5700 3450
+NoConn ~ 5700 3550
+NoConn ~ 5700 3650
 $EndSCHEMATC
