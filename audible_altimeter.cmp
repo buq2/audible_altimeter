@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-27 BZR 5390)-product   date = Tue Jan 27 21:05:31 2015
+Cmp-Mod V01 Created by Cvpcb (2015-01-27 BZR 5390)-product   date = Tue Jan 27 21:59:32 2015
 
 BeginCmp
 TimeStamp = /5446056F/54461046;
@@ -88,6 +88,13 @@ BeginCmp
 TimeStamp = /5446183C/5461388F;
 Reference = P1;
 ValeurCmp = CONN_2;
+IdModule  = buq2:PIN_HEADER_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54464A80/54C7F3AD;
+Reference = P2;
+ValeurCmp = SERIAL;
 IdModule  = buq2:PIN_HEADER_2;
 EndCmp
 
