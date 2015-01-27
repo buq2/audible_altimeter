@@ -143,4 +143,27 @@ Wire Wire Line
 	6800 3050 6800 3200
 Text Notes 5650 2900 0    60   ~ 0
 two 0603 resistors as\npower dissipation is 0.2w
+$Comp
+L SPEAKER SP1
+U 1 1 54C7C4BE
+P 7250 4250
+F 0 "SP1" H 7150 4500 70  0000 C CNN
+F 1 "SPEAKER" H 7150 4000 70  0000 C CNN
+F 2 "buq2:SPEAKER_240326000031" H 7250 4250 60  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/2403-260-00031.pdf" H 7250 4250 60  0001 C CNN
+	1    7250 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3150 6650 3150
+Wire Wire Line
+	6650 3150 6650 4150
+Wire Wire Line
+	6650 4150 6950 4150
+Connection ~ 6800 3150
+Wire Wire Line
+	6750 3350 6750 4350
+Wire Wire Line
+	6750 4350 6950 4350
+Connection ~ 6750 3350
 $EndSCHEMATC

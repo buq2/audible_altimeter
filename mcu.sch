@@ -191,7 +191,7 @@ Text HLabel 3000 4500 0    60   Input ~ 0
 D+
 Text HLabel 5700 4300 2    60   Input ~ 0
 MOSI
-Text HLabel 7250 4400 2    60   Input ~ 0
+Text HLabel 5700 4400 2    60   Input ~ 0
 MISO
 Text HLabel 5700 4500 2    60   Input ~ 0
 SCK
@@ -257,41 +257,38 @@ Text Label 3000 2600 2    60   ~ 0
 PDI_DATA
 Text HLabel 3000 4200 0    60   Input ~ 0
 BUZZER_DRIVE
-Text HLabel 5700 2500 2    60   Input ~ 0
+Text HLabel 5700 3550 2    60   Input ~ 0
 CLOCK_INT
-Text HLabel 5700 2700 2    60   Input ~ 0
+Text HLabel 5700 3650 2    60   Input ~ 0
 BAROMETER_INT
-Text HLabel 3000 3800 0    60   Input ~ 0
+Text HLabel 5700 2900 2    60   Input ~ 0
 CSn_FLASH
-Text HLabel 3000 3900 0    60   Input ~ 0
+Text HLabel 5700 2800 2    60   Input ~ 0
 CSp_DISPLAY
 NoConn ~ 3000 4300
 NoConn ~ 3000 3450
 NoConn ~ 3000 3350
 NoConn ~ 3000 3200
 NoConn ~ 3000 3100
-NoConn ~ 5700 4000
-NoConn ~ 5700 4100
-NoConn ~ 5700 4200
-Text HLabel 5700 3000 2    60   Input ~ 0
+NoConn ~ 5700 3000
+NoConn ~ 5700 3100
+NoConn ~ 5700 3200
+Text HLabel 5700 4200 2    60   Input ~ 0
 BUTTON_UP
-Text HLabel 5700 3200 2    60   Input ~ 0
+Text HLabel 5700 4000 2    60   Input ~ 0
 BUTTON_DOWN
-Text HLabel 5700 3100 2    60   Input ~ 0
+Text HLabel 5700 4100 2    60   Input ~ 0
 BUTTON_CENTER
-Wire Wire Line
-	5700 4400 7250 4400
-Connection ~ 7050 4400
 NoConn ~ 3000 3550
 NoConn ~ 3000 3650
 NoConn ~ 3000 4100
 NoConn ~ 5700 3350
-Text HLabel 3000 4000 0    60   Input ~ 0
+Text HLabel 5700 2700 2    60   Input ~ 0
 DISP_ON
 NoConn ~ 5700 2600
-NoConn ~ 5700 2800
-NoConn ~ 5700 2900
+NoConn ~ 3000 4000
+NoConn ~ 3000 3900
 NoConn ~ 5700 3450
-NoConn ~ 5700 3550
-NoConn ~ 5700 3650
+NoConn ~ 3000 3800
+NoConn ~ 5700 2500
 $EndSCHEMATC
