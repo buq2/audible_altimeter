@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-20 BZR 5383)-product   date = Mon Jan 26 22:17:24 2015
+Cmp-Mod V01 Created by Cvpcb (2015-01-27 BZR 5390)-product   date = Tue Jan 27 21:05:31 2015
 
 BeginCmp
 TimeStamp = /5446056F/54461046;
@@ -39,6 +39,20 @@ BeginCmp
 TimeStamp = /5446183C/546131AA;
 Reference = C6;
 ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54462AE3/54C7FA3D;
+Reference = C7;
+ValeurCmp = 1u;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54462AE3/54C7FAA3;
+Reference = C8;
+ValeurCmp = 1u;
 IdModule  = buq2:SM0603;
 EndCmp
 
@@ -141,6 +155,13 @@ IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /54464246/54C7C4BE;
+Reference = SP1;
+ValeurCmp = SPEAKER;
+IdModule  = buq2:SPEAKER_240326000031;
+EndCmp
+
+BeginCmp
 TimeStamp = /5446056F/54461037;
 Reference = U1;
 ValeurCmp = MCP7940M;
@@ -215,6 +236,13 @@ TimeStamp = /5463ABA7/54C7F154;
 Reference = U11;
 ValeurCmp = DWN;
 IdModule  = buq2:PUSHBUTTON_4x4_5x5_ROTATED_4_PIN;
+EndCmp
+
+BeginCmp
+TimeStamp = /54462AE3/54C7F8FE;
+Reference = U12;
+ValeurCmp = 2SMPB-01-01;
+IdModule  = buq2:2SMPB-01-01;
 EndCmp
 
 BeginCmp
