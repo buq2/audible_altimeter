@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-27 BZR 5390)-product   date = Tue Jan 27 21:59:32 2015
+Cmp-Mod V01 Created by Cvpcb (2015-04-14 BZR 5600)-product   date = Wed Apr 15 22:42:19 2015
 
 BeginCmp
 TimeStamp = /5446056F/54461046;
@@ -57,6 +57,13 @@ IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /54464246/552EE144;
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /54463294/5446340E;
 Reference = CON1;
 ValeurCmp = BUQ2-USB-MICRO-B;
@@ -99,9 +106,9 @@ IdModule  = buq2:PIN_HEADER_2;
 EndCmp
 
 BeginCmp
-TimeStamp = /54464246/5446457C;
+TimeStamp = /54464246/552EBAB2;
 Reference = Q1;
-ValeurCmp = NPN;
+ValeurCmp = NPN-SOT23;
 IdModule  = buq2:SOT-23-3;
 EndCmp
 
@@ -162,13 +169,6 @@ IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54464246/54C7C4BE;
-Reference = SP1;
-ValeurCmp = SPEAKER;
-IdModule  = buq2:SPEAKER_240326000031;
-EndCmp
-
-BeginCmp
 TimeStamp = /5446056F/54461037;
 Reference = U1;
 ValeurCmp = MCP7940M;
@@ -218,10 +218,10 @@ IdModule  = buq2:FPC-CONN-10-FCI-TOP-CONTACTS;
 EndCmp
 
 BeginCmp
-TimeStamp = /54464246/54464575;
+TimeStamp = /54464246/552EC00D;
 Reference = U8;
-ValeurCmp = CSS-0575A-SMT;
-IdModule  = buq2:BUZZER-CUI-5MM;
+ValeurCmp = SPEAKER-WITH-DUMMY;
+IdModule  = buq2:SPEAKER-T0825TR;
 EndCmp
 
 BeginCmp
@@ -257,6 +257,13 @@ TimeStamp = /5462FBEF/54630036;
 Reference = U13;
 ValeurCmp = FLASH_MEMORY;
 IdModule  = buq2:8-SOIC;
+EndCmp
+
+BeginCmp
+TimeStamp = /54464246/552EE006;
+Reference = U14;
+ValeurCmp = MCP4017;
+IdModule  = buq2:SC-70-6;
 EndCmp
 
 BeginCmp

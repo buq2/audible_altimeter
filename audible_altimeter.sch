@@ -102,6 +102,9 @@ F0 "Buzzer" 60
 F1 "buzzer.sch" 60
 F2 "BATTERY" I L 1050 3300 60 
 F3 "BUZZER_DRIVE" I L 1050 3450 60 
+F4 "3.3V" I R 2100 3250 60 
+F5 "SCL" I R 2100 3350 60 
+F6 "SDA" I R 2100 3450 60 
 $EndSheet
 $Sheet
 S 6100 3950 2250 2400
@@ -239,4 +242,10 @@ Text Label 8350 4950 0    60   ~ 0
 DISP_ON
 Text Label 7600 1250 2    60   ~ 0
 DISP_ON
+Text Label 2100 3250 0    60   ~ 0
+VCC_3.3
+Text Label 2100 3450 0    60   ~ 0
+I2C_SDA
+Text Label 2100 3350 0    60   ~ 0
+I2C_SCL
 $EndSCHEMATC

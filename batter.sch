@@ -280,7 +280,7 @@ F 1 "CONN_2" V 2600 1350 40  0000 C CNN
 F 2 "buq2:PIN_HEADER_2" H 2550 1350 60  0001 C CNN
 F 3 "" H 2550 1350 60  0000 C CNN
 	1    2550 1350
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Text HLabel 2450 1700 3    60   Input ~ 0
 BATTERY
