@@ -1,0 +1,250 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:buq2-kicad-components
+LIBS:audible_altimeter-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MPU-9250 U16
+U 1 1 5530299C
+P 3950 3400
+F 0 "U16" H 4400 2550 60  0000 C CNN
+F 1 "MPU-9250" H 4450 4650 60  0000 C CNN
+F 2 "buq2:24QFN-3MM-3MM" H 3950 3400 60  0001 C CNN
+F 3 "" H 3950 3400 60  0000 C CNN
+	1    3950 3400
+	1    0    0    -1  
+$EndComp
+Text HLabel 3550 2850 0    60   Input ~ 0
+VDD
+Text HLabel 5750 3600 2    60   Input ~ 0
+VDD
+$Comp
+L C C10
+U 1 1 55302A61
+P 5550 3800
+F 0 "C10" H 5550 3900 40  0000 L CNN
+F 1 "100n" H 5556 3715 40  0000 L CNN
+F 2 "buq2:SM0603" H 5588 3650 30  0001 C CNN
+F 3 "" H 5550 3800 60  0000 C CNN
+	1    5550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3600 5750 3600
+Connection ~ 5550 3600
+$Comp
+L GND #PWR039
+U 1 1 55302A84
+P 5550 4100
+F 0 "#PWR039" H 5550 4100 30  0001 C CNN
+F 1 "GND" H 5550 4030 30  0001 C CNN
+F 2 "" H 5550 4100 60  0000 C CNN
+F 3 "" H 5550 4100 60  0000 C CNN
+	1    5550 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4100 5550 4000
+NoConn ~ 5300 3450
+NoConn ~ 5300 3300
+NoConn ~ 5300 3150
+NoConn ~ 5300 3000
+NoConn ~ 3550 3000
+NoConn ~ 3550 3150
+NoConn ~ 3550 3450
+NoConn ~ 3550 3600
+NoConn ~ 3550 3300
+NoConn ~ 4550 2350
+NoConn ~ 4850 2350
+$Comp
+L GND #PWR040
+U 1 1 55302AD2
+P 4700 2250
+F 0 "#PWR040" H 4700 2250 30  0001 C CNN
+F 1 "GND" H 4700 2180 30  0001 C CNN
+F 2 "" H 4700 2250 60  0000 C CNN
+F 3 "" H 4700 2250 60  0000 C CNN
+	1    4700 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 2250 4700 2350
+Text HLabel 4100 2200 1    60   Input ~ 0
+I2C_SDA
+Text HLabel 4250 2200 1    60   Input ~ 0
+I2C_SCL
+Text HLabel 4400 2200 1    60   Input ~ 0
+VDD
+Wire Wire Line
+	4400 2200 4400 2350
+Wire Wire Line
+	4250 2350 4250 2200
+Wire Wire Line
+	4100 2200 4100 2350
+$Comp
+L C XC13
+U 1 1 55302B1F
+P 4000 4550
+F 0 "XC13" H 4000 4650 40  0000 L CNN
+F 1 "10n" H 4006 4465 40  0000 L CNN
+F 2 "buq2:SM0603" H 4038 4400 30  0001 C CNN
+F 3 "" H 4000 4550 60  0000 C CNN
+	1    4000 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 4100 4200 4650
+$Comp
+L GND #PWR041
+U 1 1 55302B67
+P 3700 4550
+F 0 "#PWR041" H 3700 4550 30  0001 C CNN
+F 1 "GND" H 3700 4480 30  0001 C CNN
+F 2 "" H 3700 4550 60  0000 C CNN
+F 3 "" H 3700 4550 60  0000 C CNN
+	1    3700 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 4550 3800 4550
+Text HLabel 4200 4650 3    60   Input ~ 0
+VDD
+Connection ~ 4200 4550
+$Comp
+L GND #PWR042
+U 1 1 55302BA5
+P 4350 4200
+F 0 "#PWR042" H 4350 4200 30  0001 C CNN
+F 1 "GND" H 4350 4130 30  0001 C CNN
+F 2 "" H 4350 4200 60  0000 C CNN
+F 3 "" H 4350 4200 60  0000 C CNN
+	1    4350 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 4200 4350 4100
+$Comp
+L GND #PWR043
+U 1 1 55302BCF
+P 4650 4200
+F 0 "#PWR043" H 4650 4200 30  0001 C CNN
+F 1 "GND" H 4650 4130 30  0001 C CNN
+F 2 "" H 4650 4200 60  0000 C CNN
+F 3 "" H 4650 4200 60  0000 C CNN
+	1    4650 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4200 4650 4100
+$Comp
+L C XC14
+U 1 1 55302BEF
+P 4500 4450
+F 0 "XC14" H 4500 4550 40  0000 L CNN
+F 1 "100n" H 4506 4365 40  0000 L CNN
+F 2 "buq2:SM0603" H 4538 4300 30  0001 C CNN
+F 3 "" H 4500 4450 60  0000 C CNN
+	1    4500 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4100 4500 4250
+$Comp
+L GND #PWR044
+U 1 1 55302C24
+P 4500 4750
+F 0 "#PWR044" H 4500 4750 30  0001 C CNN
+F 1 "GND" H 4500 4680 30  0001 C CNN
+F 2 "" H 4500 4750 60  0000 C CNN
+F 3 "" H 4500 4750 60  0000 C CNN
+	1    4500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4750 4500 4650
+$Comp
+L R R9
+U 1 1 55302C4F
+P 5050 4450
+F 0 "R9" V 5130 4450 40  0000 C CNN
+F 1 "10k" V 5057 4451 40  0000 C CNN
+F 2 "buq2:SM0603" V 4980 4450 30  0001 C CNN
+F 3 "" H 5050 4450 30  0000 C CNN
+	1    5050 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR045
+U 1 1 55302C73
+P 5350 4450
+F 0 "#PWR045" H 5350 4450 30  0001 C CNN
+F 1 "GND" H 5350 4380 30  0001 C CNN
+F 2 "" H 5350 4450 60  0000 C CNN
+F 3 "" H 5350 4450 60  0000 C CNN
+	1    5350 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 4450 5300 4450
+Wire Wire Line
+	4800 4100 4800 4550
+Text HLabel 4800 4550 3    60   Input ~ 0
+INT
+Connection ~ 4800 4450
+NoConn ~ 4050 4100
+$Comp
+L GND #PWR046
+U 1 1 55302CD7
+P 5450 2850
+F 0 "#PWR046" H 5450 2850 30  0001 C CNN
+F 1 "GND" H 5450 2780 30  0001 C CNN
+F 2 "" H 5450 2850 60  0000 C CNN
+F 3 "" H 5450 2850 60  0000 C CNN
+	1    5450 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 2850 5300 2850
+$EndSCHEMATC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-14 BZR 5600)-product   date = Wed Apr 15 22:42:19 2015
+Cmp-Mod V01 Created by Cvpcb (2015-04-14 BZR 5600)-product   date = Thu Apr 16 21:36:40 2015
 
 BeginCmp
 TimeStamp = /5446056F/54461046;
@@ -64,6 +64,13 @@ IdModule  = buq2:SM0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /553028FD/55302A61;
+Reference = C10;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /54463294/5446340E;
 Reference = CON1;
 ValeurCmp = BUQ2-USB-MICRO-B;
@@ -102,6 +109,13 @@ BeginCmp
 TimeStamp = /54464A80/54C7F3AD;
 Reference = P2;
 ValeurCmp = SERIAL;
+IdModule  = buq2:PIN_HEADER_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54464A80/552F44E9;
+Reference = P3;
+ValeurCmp = POWER;
 IdModule  = buq2:PIN_HEADER_2;
 EndCmp
 
@@ -165,6 +179,13 @@ BeginCmp
 TimeStamp = /54464246/54C74F1A;
 Reference = R8;
 ValeurCmp = 25;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /553028FD/55302C4F;
+Reference = R9;
+ValeurCmp = 10k;
 IdModule  = buq2:SM0603;
 EndCmp
 
@@ -264,6 +285,20 @@ TimeStamp = /54464246/552EE006;
 Reference = U14;
 ValeurCmp = MCP4017;
 IdModule  = buq2:SC-70-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5446183C/5530055B;
+Reference = U15;
+ValeurCmp = SPDT-SWITCH;
+IdModule  = buq2:CUS-12TB-SWITCH;
+EndCmp
+
+BeginCmp
+TimeStamp = /553028FD/5530299C;
+Reference = U16;
+ValeurCmp = MPU-9250;
+IdModule  = buq2:24QFN-3MM-3MM;
 EndCmp
 
 BeginCmp
@@ -367,6 +402,20 @@ EndCmp
 BeginCmp
 TimeStamp = /54464A80/54464F2C;
 Reference = XC12;
+ValeurCmp = 100n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /553028FD/55302B1F;
+Reference = XC13;
+ValeurCmp = 10n;
+IdModule  = buq2:SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /553028FD/55302BEF;
+Reference = XC14;
 ValeurCmp = 100n;
 IdModule  = buq2:SM0603;
 EndCmp

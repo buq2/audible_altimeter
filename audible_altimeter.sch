@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -128,6 +128,7 @@ F15 "BUTTON_UP" I L 6100 5450 60
 F16 "BUTTON_DOWN" I L 6100 5550 60 
 F17 "BUTTON_CENTER" I L 6100 5850 60 
 F18 "DISP_ON" I R 8350 4950 60 
+F19 "ACC_INT" I L 6100 5100 60 
 $EndSheet
 Text Label 3350 950  0    60   ~ 0
 I2C_SCL
@@ -248,4 +249,24 @@ Text Label 2100 3450 0    60   ~ 0
 I2C_SDA
 Text Label 2100 3350 0    60   ~ 0
 I2C_SCL
+$Sheet
+S 1050 5300 1250 600 
+U 553028FD
+F0 "Accelerometer" 60
+F1 "accelerometer.sch" 60
+F2 "VDD" I L 1050 5450 60 
+F3 "I2C_SDA" I R 2300 5500 60 
+F4 "I2C_SCL" I R 2300 5600 60 
+F5 "INT" I R 2300 5700 60 
+$EndSheet
+Text Label 1050 5450 2    60   ~ 0
+VCC_3.3
+Text Label 2300 5600 0    60   ~ 0
+I2C_SCL
+Text Label 2300 5500 0    60   ~ 0
+I2C_SDA
+Text Label 2300 5700 0    60   ~ 0
+ACC_INT
+Text Label 6100 5100 2    60   ~ 0
+ACC_INT
 $EndSCHEMATC

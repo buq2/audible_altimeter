@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 8 11
 Title ""
 Date ""
 Rev ""
@@ -286,9 +286,7 @@ DISP_ON
 NoConn ~ 5700 2600
 NoConn ~ 3000 4000
 NoConn ~ 3000 3900
-NoConn ~ 5700 3450
 NoConn ~ 3000 3800
-NoConn ~ 5700 2500
 $Comp
 L CONN_2 P2
 U 1 1 54C7F3AD
@@ -310,4 +308,36 @@ Wire Wire Line
 	3000 3650 1900 3650
 Wire Wire Line
 	1900 3650 1900 3500
+$Comp
+L CONN_2 P3
+U 1 1 552F44E9
+P 1550 3950
+F 0 "P3" V 1500 3950 40  0000 C CNN
+F 1 "POWER" V 1600 3950 40  0000 C CNN
+F 2 "buq2:PIN_HEADER_2" H 1550 3950 60  0001 C CNN
+F 3 "" H 1550 3950 60  0000 C CNN
+	1    1550 3950
+	-1   0    0    1   
+$EndComp
+Text HLabel 1900 3850 2    60   Input ~ 0
+VDD
+$Comp
+L GND #PWR033
+U 1 1 552F45D9
+P 1950 4050
+F 0 "#PWR033" H 1950 4050 30  0001 C CNN
+F 1 "GND" H 1950 3980 30  0001 C CNN
+F 2 "" H 1950 4050 60  0000 C CNN
+F 3 "" H 1950 4050 60  0000 C CNN
+	1    1950 4050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1950 4050 1900 4050
+Text HLabel 5700 2500 2    60   Input ~ 0
+VDD
+Text Notes 5600 2200 0    60   ~ 0
+VDD at AREF should make it possible for simple battery monitor
+Text HLabel 5700 3450 2    60   Input ~ 0
+ACC_INT
 $EndSCHEMATC
