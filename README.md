@@ -1,4 +1,4 @@
-# Audible altimeter electronics schematic
+# audible_altimeter
 
 KiCad schematics for electronic skydiving altimeter.
 
